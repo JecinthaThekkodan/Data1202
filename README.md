@@ -32,7 +32,7 @@ pip3 install jupyter
 - Download the python file(Assignment3.ipnyb) under folder [Data1202/](https://github.com/JecinthaThekkodan/Data1202/tree/main)
 - Open the python file notebook in Jupyter
 - Connect to MYSQL
-- Load the data set in MYSQL in vgsales table
+- Load the dataset in MYSQL in vgsales table ([Steps](https://www.mysqltutorial.org/import-csv-file-mysql-table/))
 
 #### Running the Tests
 
