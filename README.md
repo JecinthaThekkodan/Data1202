@@ -6,7 +6,7 @@ The document is created to guide users on testing a python code do solve the que
 - Question 1: Was the average of global sales higher before or after 2005?
 - Question 2: Create a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'
 
-By using the dataset vgsales[Data1202/Dataset/]
+By using the dataset "vgsales.csv" under folder [Data1202/Dataset/](https://github.com/JecinthaThekkodan/Data1202/tree/main/Dataset)
 
 This documents includes:
 - How to install Jupyter - Python
@@ -28,8 +28,8 @@ pip3 install jupyter
 #### Prerequisites
 - Jupyter should be installed
 - MySQL should be installed
-- Dataset to be downloaded from [Data1202/Dataset/]
-- Download the python file from [Data1202/]
+- Dataset to be downloaded under folder [Data1202/Dataset/](https://github.com/JecinthaThekkodan/Data1202/tree/main/Dataset)
+- Download the python file under folder [Data1202/](https://github.com/JecinthaThekkodan/Data1202/tree/main)
 - Open the python file notebook in Jupyter
 - Connect to MYSQL
 - Load the data set in MYSQL in vgsales table
