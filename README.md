@@ -2,7 +2,7 @@
 ## Data Analytics for Business Decision Making
 ### Data1202-Data Tools and Analytics - Assignment5
 
-The document is created to guide users on testing a python code do solve the questions. 
+The document is created to guide users on testing a python code to solve the questions. 
 - Question 1: Was the average of global sales higher before or after 2005?
 - Question 2: Create a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'
 
@@ -29,7 +29,7 @@ pip3 install jupyter
 - Jupyter should be installed
 - MySQL should be installed
 - Dataset to be downloaded under folder [Data1202/Dataset/](https://github.com/JecinthaThekkodan/Data1202/tree/main/Dataset)
-- Download the python file under folder [Data1202/](https://github.com/JecinthaThekkodan/Data1202/tree/main)
+- Download the python file(Assignment3.ipnyb) under folder [Data1202/](https://github.com/JecinthaThekkodan/Data1202/tree/main)
 - Open the python file notebook in Jupyter
 - Connect to MYSQL
 - Load the data set in MYSQL in vgsales table
@@ -74,6 +74,7 @@ with pd.option_context('expand_frame_repr', False):
     print(qs1_df)
 
 # Question 2: Create a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'
+
 # Using PANDAS to read SQL query which creates a new column 
 # pre-2005
 # post-2005
