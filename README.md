@@ -1,6 +1,6 @@
 # DURHAM COLLEGE
 ## Data Analytics for Business Decision Making
-### Data1202-Data Tools and Analytics - Assignment5
+### Data1202-Data Analysis Tools Analytics - Assignment5
 
 The document is created to guide users on testing a python code to solve the questions. 
 - Question 1: Was the average of global sales higher before or after 2005?
@@ -60,6 +60,7 @@ df
 # - sales average after 2005
 # Case statement is used to compare and calculate which sales average is higher
 # AVG, ROUND are aggregate functions in SQL to calculate the mean and round upto 2 digits respectively
+
 qs1_df = pd.read_sql('''Select a.before2005 as Sales_Avg_Before_2005, b.after2005 as Sales_Avg_After_2005,
     (case
     when a.before2005 > b.after2005 then 'Global sales were higher before 2005'
